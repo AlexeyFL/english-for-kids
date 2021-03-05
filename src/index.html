@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="description" content="Canvas" />
+    <meta name="author" lang="en" content="Alexander Panov" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>English for kids</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <span class="close">&times;</span>
+      <ul class="menu">
+        <li class="menu__item">
+          <a data-title="main" class="menu__link menu__link_main" href="/"
+            >Main page</a
+          >
+        </li>
+        <li class="menu__item">
+          <a data-title="actionA" class="menu__link" href="/">Action (set A)</a>
+        </li>
+        <li class="menu__item">
+          <a data-title="actionB" class="menu__link" href="/">Action (set B)</a>
+        </li>
+        <li class="menu__item">
+          <a data-title="actionC" class="menu__link" href="/">Action (set C)</a>
+        </li>
+        <li class="menu__item">
+          <a data-title="actionD" class="menu__link" href="/">Action (set D)</a>
+        </li>
+        <li class="menu__item">
+          <a data-title="animalA" class="menu__link" href="/">Animal (set A)</a>
+        </li>
+        <li class="menu__item">
+          <a data-title="animalB" class="menu__link" href="/">Animal (set B)</a>
+        </li>
+        <li class="menu__item">
+          <a data-title="emotions" class="menu__link" href="/">Emotions</a>
+        </li>
+        <li class="menu__item">
+          <a data-title="clothes" class="menu__link" href="/">Clothes</a>
+        </li>
+        <li class="menu__item">
+          <a data-title="statistic" class="menu__link" href="/">Statistic</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <h1 class="heading">English for kids</h1>
+      <header class="header">
+        <div class="header__container">
+          <div class="header__item">
+            <div class="burger">
+              <span class="burger__item"></span>
+            </div>
+          </div>
+          <div class="header__item">
+            <div class="switcher">
+              <label class="switcher__label" for="switcher-check">
+                <input
+                  id="switcher-check"
+                  class="switcher__checkbox"
+                  type="checkbox"
+                />
+                <span class="switcher__slider"></span>
+                <span
+                  class="switcher__mode"
+                  data-play="Play"
+                  data-train="Train"
+                ></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="stars"></div>
+      </header>
+      <main id="app"></main>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__item footer__logo">
+          <a class="footer__logo-link" href="https://rs.school/js/">
+            <img
+              class="footer__logo-img"
+              src="assets/images/logo.svg"
+              alt="Rolling Scopes"
+            />
+          </a>
+        </div>
+        <div class="footer__item">
+          <a class="footer__copy" href="https://github.com/AlexeyFL"
+            >github.com/AlexeyFL &copy; 2020</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
